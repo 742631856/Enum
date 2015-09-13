@@ -34,8 +34,8 @@ public class Main {
 		
 		//所有的枚举
 		for (Week e : Week.values()) {
-            System.out.println(e.toString());
-        }
+			System.out.println(e.toString());
+		}
 		
 		//key是枚举类型的map, 这样初始化
 		EnumMap<Week, String> map = new EnumMap<Week, String>(Week.class);
